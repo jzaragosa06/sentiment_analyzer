@@ -4,6 +4,8 @@ import pandas as pd
 import altair as alt
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+st.set_page_config(layout="wide"). 
+
 import nltk
 nltk.download('punkt')
 
