@@ -3,3 +3,5 @@ textblob
 altair
 vaderSentiment
 plotly
+transformers
+pytorch
