@@ -1,8 +1,6 @@
 streamlit
 textblob
-pandas
 altair
 vaderSentiment
 transformers
-torch
 plotly
