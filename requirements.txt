@@ -4,4 +4,4 @@ altair
 vaderSentiment
 plotly
 transformers
-pytorch
+torch==2.3.1
