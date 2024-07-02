@@ -105,7 +105,7 @@ def main():
     st.sidebar.markdown('This web application analyzes the sentiment of the provided text and gives information about the polarity, subjectivity, and emotional tone. ')
     st.sidebar.markdown('This web application has the following functionality: ')
     st.sidebar.markdown("""<ul>
-                            <li>Paragraph-level sentiment analysis</li>
+                            <li>General-level sentiment analysis</li>
                             <li>Sentence-level sentiment analysis</li>
                             <li>Token-level sentiment analysis</li>
                             <li>Emotion Detection</li>
