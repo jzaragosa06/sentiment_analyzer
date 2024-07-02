@@ -218,11 +218,11 @@ def main():
                 }               
                 
                 st.markdown("### Polairity")
-                fig = px.bar(data, x='Text', y='Sentiment', color='Text', title='Comparative Sentiment Analysis')
+                fig = px.bar(data_polarity, x='Text', y='Sentiment', color='Text', title='Comparative Sentiment Analysis')
                 st.plotly_chart(fig)
                 
                 st.markdown("### Subjectivity")
-                fig = px.bar(data, x='Text', y='Sentiment', color='Text', title='Comparative Sentiment Analysis')
+                fig = px.bar(data_subjectivity, x='Text', y='Sentiment', color='Text', title='Comparative Sentiment Analysis')
                 st.plotly_chart(fig)
 
     else:
